@@ -1,0 +1,17 @@
+{
+	"name": "linked_sqldatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "piplinesqldatabase.database.windows.net",
+			"database": "payrolldatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "database",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZENDE3ODVELTY0N0ItNENEOS04N0IyLTc4OTczRDFBQzREMF8xNGNhNDlhMy01YmM4LTRmNjMtOWE3OC03NDgxYzk2NDg5NjkiDQp9"
+		}
+	}
+}
